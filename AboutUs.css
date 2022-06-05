@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Anton:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', 'Anton';
+  font-family: 'Poppins', sans-serif;
   color: red;
   background-color:black;
 }
@@ -38,49 +37,8 @@ html, body {
   padding-top: 50px;
   text-align: center;
 }
-#welcome {
-  height: 800px;
-  color: red;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  opacity: 0.8;
-  display: table;
-  width: 100%;
-  height: 100%;
-  z-index: 9;
-}
-.Welcome_Img{
-  width: 50%;
-  height: 750px;
-  border-radius: 10%;
-  border-style: dashed;
-  border-color: rgb(255, 0, 0);
-  border-width: 2.5px;
-  margin-bottom: 40px;
-}
-h1 {
-  font-size: 60px;
-  line-height: 1.2;
-  font-family: 'Anton';
-  font-weight: 500;
-  color: red;
-}
-
-h2 {
+.main-p{
   font-size: 40px;
-  font-weight: 300;
-  line-height: 1.2;
-  font-family: 'Roboto';
-  color: red;
-}
-h3{
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.2;
-  font-family: sans-serif;
-  color: red;
 }
 p {
   font-size: 25px;
@@ -90,6 +48,7 @@ b {
   font-size: 40px;
   padding-bottom: 50px;
 }
+
 .hr3{
   background-color: white;
   height: 1px;
@@ -97,6 +56,39 @@ b {
   margin-right: auto;
   margin-left: auto;
 }
+
+.Team{
+  width:60%;
+  height:20%;
+  border-radius:10%;
+  border-color:red;
+  border-style: dashed;
+  border-width: 2px;
+}
+.Profile-Pics{
+  width: 400px;
+  height: 500px;
+  border-radius: 5%;
+  border-color: rgb(160, 12, 12);
+  border-style:dotted;
+  border-width: 1.5px;
+}
+
+.flex-container {
+  display: flex;
+  border-color:azure;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.flex-child {
+  flex:1;
+}
+
+.flex-child:first-child{
+  margin-right: 20px;
+}
+
 .footer-container {
   background-color:#212329;
   padding: 4rem 0 4rem 0;
@@ -109,7 +101,7 @@ b {
   margin: 0 auto;
 }
 
-footer{
+.footer{
   background-color:#212329;
   color:whitesmoke;
   padding-top: 2rem;
@@ -156,6 +148,8 @@ footer{
   color: whitesmoke; 
   line-height: 1.25;
 }
+
+
 
 
 
@@ -217,6 +211,9 @@ figure {
 }
 
 
+
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -233,3 +230,11 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+
+
+
+
+
+
+
