@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Anton:400,500,700');
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Anton', 'Roboto', sans-serif;
   color: red;
   background-color:black;
 }
@@ -24,6 +25,7 @@ html, body {
 }
 .nav-link {
   font-size: 1.1em !important;
+  font-family: 'Roboto';
 }
 .padding {
   padding-bottom: 2rem;
@@ -39,14 +41,31 @@ html, body {
 }
 .main-p{
   font-size: 40px;
+  font-family: 'Roboto';
 }
+
+h1 {
+  line-height: 1.2;
+  font-family: 'Anton';
+  color: red;
+}
+
+h2 {
+  line-height: 1.2;
+  font-family: 'Anton';
+  color: red;
+}
+h3{
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: 'Anton';
+  color: red;
+}
+
 p {
   font-size: 25px;
   position: center;
-}
-b {
-  font-size: 40px;
-  padding-bottom: 50px;
+  font-family: sans-serif;
 }
 
 .hr3{
@@ -64,6 +83,7 @@ b {
   border-color:red;
   border-style: dashed;
   border-width: 2px;
+  margin-bottom: 50px;
 }
 .Profile-Pics{
   width: 400px;
@@ -76,13 +96,13 @@ b {
 
 .flex-container {
   display: flex;
-  border-color:azure;
-  border-width: 2px;
-  border-style: solid;
 }
 
 .flex-child {
   flex:1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
 }
 
 .flex-child:first-child{
@@ -117,11 +137,13 @@ b {
 .footer-heading h2{
   margin-bottom: 2rem;
   font-size: 25px;
+  font-family: 'Anton';
   color: red;
 }
 
 .footer-heading h3{
   font-size: 18px;
+  font-family: sans-serif;
   color: red;
 }
 
@@ -131,6 +153,7 @@ b {
 }
 
 .footer-heading a{
+  font-family: sans-serif;
   color:whitesmoke;
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -143,6 +166,7 @@ b {
 
 .copyright {
   font-size: 12px;
+  font-family:'Roboto';
   text-align: center; 
   padding-top: 8px; 
   color: whitesmoke; 

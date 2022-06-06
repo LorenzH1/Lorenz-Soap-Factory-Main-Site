@@ -25,6 +25,7 @@ html, body {
 }
 .nav-link {
   font-size: 1.1em !important;
+  font-family: 'Roboto'
 }
 .padding {
   padding-bottom: 2rem;
@@ -52,7 +53,7 @@ html, body {
   z-index: 9;
 }
 .Welcome_Img{
-  width: 50%;
+  width: 60%;
   height: 750px;
   border-radius: 10%;
   border-style: dashed;
@@ -85,10 +86,6 @@ h3{
 p {
   font-size: 25px;
   position: center;
-}
-b {
-  font-size: 40px;
-  padding-bottom: 50px;
 }
 .hr3{
   background-color: white;
@@ -125,11 +122,13 @@ footer{
 .footer-heading h2{
   margin-bottom: 2rem;
   font-size: 25px;
+  font-family: 'Anton';
   color: red;
 }
 
 .footer-heading h3{
   font-size: 18px;
+  font-family: sans-serif;
   color: red;
 }
 
@@ -140,6 +139,7 @@ footer{
 
 .footer-heading a{
   color:whitesmoke;
+  font-family: sans-serif;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -151,6 +151,7 @@ footer{
 
 .copyright {
   font-size: 12px;
+  font-family:'Roboto';
   text-align: center; 
   padding-top: 8px; 
   color: whitesmoke; 
