@@ -10,12 +10,12 @@ html, body {
 }
 .logo{
   float: left;
-  height: 110px;
+  height: 120px;
   width: 150px;
   border-width: 4px;
   border-style: solid;
   border-radius: 100%;
-  border-color: rgb(255,255,255);
+  border-color: #4794c4;
 }
 .navbar {
   padding: .8rem;
@@ -33,7 +33,7 @@ html, body {
 .main-container {
   background-image: linear-gradient(to right, black, grey);
   border-radius: 1%;
-  border-color:azure;
+  border-color:#4794c4;
   border-width: 2px;
   border-style: solid;
   padding-top: 50px;
@@ -47,25 +47,26 @@ html, body {
 h1 {
   line-height: 1.2;
   font-family: 'Anton';
-  color: red;
+  color: #5271ff;
 }
 
 h2 {
   line-height: 1.2;
   font-family: 'Anton';
-  color: red;
+  color: #4ab5e4;
 }
 h3{
   font-size: 40px;
   line-height: 1.2;
   font-family: 'Anton';
-  color: red;
+  color: #508dab;
 }
 
 p {
   font-size: 25px;
   position: center;
   font-family: sans-serif;
+  color:#2253ea;
 }
 
 .hr3{
@@ -80,7 +81,7 @@ p {
   width:60%;
   height:20%;
   border-radius:10%;
-  border-color:red;
+  border-color:#4794c4;
   border-style: dashed;
   border-width: 2px;
   margin-bottom: 50px;
@@ -89,7 +90,7 @@ p {
   width: 400px;
   height: 500px;
   border-radius: 5%;
-  border-color: rgb(160, 12, 12);
+  border-color: #4794c4;
   border-style:dotted;
   border-width: 1.5px;
 }
@@ -138,13 +139,13 @@ p {
   margin-bottom: 2rem;
   font-size: 25px;
   font-family: 'Anton';
-  color: red;
+  color: #004aad;
 }
 
 .footer-heading h3{
   font-size: 18px;
   font-family: sans-serif;
-  color: red;
+  color: #38b6ff;
 }
 
 .footer-heading img{
