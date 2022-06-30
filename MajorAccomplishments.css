@@ -4,7 +4,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Anton', 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Anton', sans-serif;
   color: red;
   background-color:black;
 }
@@ -25,7 +25,6 @@ html, body {
 }
 .nav-link {
   font-size: 1.1em !important;
-  font-family: 'Roboto';
 }
 .padding {
   padding-bottom: 2rem;
@@ -39,34 +38,60 @@ html, body {
   padding-top: 50px;
   text-align: center;
 }
-.main-p{
-  font-size: 40px;
-  font-family: 'Roboto';
+.MajorImg {
+  width:1000px;
+  height:700px;
+  border-radius:5%;
+  border-color:#4794c4;
+  border-style:solid;
+  margin-top:15px;
 }
 
 h1 {
+  font-size: 60px;
   line-height: 1.2;
   font-family: 'Anton';
+  font-weight: 500;
   color: #5271ff;
 }
 
 h2 {
+  font-size: 40px;
+  font-weight: 300;
   line-height: 1.2;
-  font-family: 'Anton';
+  font-family: 'Roboto';
   color: #4ab5e4;
+  margin-top: 75px;
 }
 h3{
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 300;
   line-height: 1.2;
-  font-family: 'Anton';
+  font-family: sans-serif;
   color: #508dab;
 }
-
 p {
   font-size: 25px;
   position: center;
   font-family: sans-serif;
+  margin-top:10px;
+  margin-bottom:65px;
   color:#2253ea;
+}
+.hr1{
+  background-color: white;
+  height: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr2{
+  background-color: white;
+  height: 1px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hr3{
@@ -75,39 +100,6 @@ p {
   width: 15%;
   margin-right: auto;
   margin-left: auto;
-}
-
-.Team{
-  width:60%;
-  height:20%;
-  border-radius:10%;
-  border-color:#4794c4;
-  border-style: dashed;
-  border-width: 2px;
-  margin-bottom: 50px;
-}
-.Profile-Pics{
-  width: 400px;
-  height: 500px;
-  border-radius: 5%;
-  border-color: #4794c4;
-  border-style:dotted;
-  border-width: 1.5px;
-}
-
-.flex-container {
-  display: flex;
-}
-
-.flex-child {
-  flex:1;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
-}
-
-.flex-child:first-child{
-  margin-right: 20px;
 }
 
 .footer-container {
@@ -122,7 +114,7 @@ p {
   margin: 0 auto;
 }
 
-.footer{
+footer{
   background-color:#212329;
   color:whitesmoke;
   padding-top: 2rem;
@@ -138,13 +130,11 @@ p {
 .footer-heading h2{
   margin-bottom: 2rem;
   font-size: 25px;
-  font-family: 'Anton';
   color: #004aad;
 }
 
 .footer-heading h3{
   font-size: 18px;
-  font-family: sans-serif;
   color: #38b6ff;
 }
 
@@ -154,7 +144,6 @@ p {
 }
 
 .footer-heading a{
-  font-family: sans-serif;
   color:whitesmoke;
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -167,13 +156,11 @@ p {
 
 .copyright {
   font-size: 12px;
-  font-family:'Roboto';
   text-align: center; 
   padding-top: 8px; 
   color: whitesmoke; 
   line-height: 1.25;
 }
-
 
 
 
@@ -255,8 +242,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
 
 
 
