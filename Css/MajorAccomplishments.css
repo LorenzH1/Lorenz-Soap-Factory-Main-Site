@@ -39,8 +39,8 @@ html, body {
   text-align: center;
 }
 .MajorImg {
-  width:1000px;
-  height:700px;
+  width:75%;
+  height:80%;
   border-radius:5%;
   border-color:#4794c4;
   border-style:solid;
